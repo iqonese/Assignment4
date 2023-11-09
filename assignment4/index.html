@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauté Spa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div id="navbar" class="container">
+            <h1>Beauté Spa</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container">
+                <h2>Welcome to Beauté Spa</h2>
+                <p>Indulge in a world of relaxation and beauty.</p>
+                <button id="learnMore">Learn More</button>
+            </div>
+        </section>
+
+        <section id="services" class="alt-section">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="service-item" tabindex="0">Massage Therapy</div>
+                <div class="service-item" tabindex="0">Facials & Skincare</div>
+                <div class="service-item" tabindex="0">Body Treatments</div>
+            </div>
+        </section>
+
+        <!-- Image Slider Container -->
+<div class="slider-container">
+    <div class="slider" id="imageSlider">
+      <!-- Slides -->
+      <!-- Make sure to replace 'image1.jpg' with the paths to your actual images -->
+      <div class="slide" style="background-image: url('image1.jpg');"></div>
+      <div class="slide" style="background-image: url('image2.jpg');"></div>
+      <div class="slide" style="background-image: url('image3.jpg');"></div>
+      <!-- ... add other slides as needed ... -->
+      <div class="slide" style="background-image: url('image16.jpg');"></div>
+  
+      <!-- Slider Controls -->
+      <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+      <a class="next" onclick="moveSlide(1)">&#10095;</a>
+    </div>
+  </div>
+  
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2023 Beauté Spa. All rights reserved.</p>
+            </div>
+        </footer>
+    </main>
+
+    <audio id="backgroundSound" src="path_to_your_audio_file.mp3"></audio>
+    <script src="scripts.js"></script>
+</body>
+</html>
